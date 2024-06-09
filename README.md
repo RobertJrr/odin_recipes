@@ -1,3 +1,3 @@
 # odin_recipes
 
-testing testing 123 Hello Rob!
+This recipes project will test our newly found html basics
