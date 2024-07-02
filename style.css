@@ -1,0 +1,58 @@
+/* Main titles */
+h1,h2{
+    color: rgb(138, 7, 7);
+    font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+
+/* main page */
+.main-background{
+    background-color: rgb(34, 107, 50);
+    border-radius: 50%;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+/* for all */
+img{
+    border-radius: 50%;
+}
+
+.description{
+    font-weight: 800;
+    color: rgb(0, 179, 255);
+    font-family: "Playwrite ES Deco", cursive;
+    text-align: center;
+}
+
+ol li{
+    font-weight: bold;
+}
+
+/* calamari */
+#calamari-title{
+    background-color: black;
+    color: rgb(rgb(242, 73, 73), green, blue);
+    border-radius: 50%;
+}
+
+/* chickenParm */
+
+.chicken.title{
+    background-color: pink;
+    color:white;
+}
+/* lasagna */
+.lasagna.title{
+    color: purple;
+    background-color: yellow;
+}
+
+.title{
+    border-radius: 50%;;
+}
