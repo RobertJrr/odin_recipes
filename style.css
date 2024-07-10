@@ -1,17 +1,22 @@
 /* Main titles */
 h1,h2{
-    color: rgb(138, 7, 7);
+    color: lightblue;
     font-family: "Playwrite ES Deco", cursive;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     text-align: center;
+    border-radius: 50%;
+    text-decoration: underline;
 }
 
 /* main page */
 .main-background{
-    background-color: rgb(34, 107, 50);
-    border-radius: 50%;
+    background-color: black;
+    border: lightblue solid 10px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 ul a{
@@ -21,7 +26,12 @@ ul a{
 /* for all */
 img{
     border-radius: 50%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
 
 .description{
     font-weight: 800;
@@ -30,6 +40,10 @@ img{
     text-align: center;
 }
 
+ul{
+    /* remove bullet points */
+    list-style-type: none;
+}
 ol li{
     font-weight: bold;
 }
@@ -37,7 +51,7 @@ ol li{
 /* calamari */
 #calamari-title{
     background-color: black;
-    color: rgb(rgb(242, 73, 73), green, blue);
+    color: rgb(242, 73, 73);
     border-radius: 50%;
 }
 
@@ -56,3 +70,33 @@ ol li{
 .title{
     border-radius: 50%;;
 }
+.center-link{
+    text-align: center;
+}
+
+.links{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 90%;
+    background-color: lightblue;
+    padding: 10px;
+}
+#ending{
+    box-sizing: border-box;
+    width: 350px;
+    height: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    padding: 60px;
+}
+
+
+
